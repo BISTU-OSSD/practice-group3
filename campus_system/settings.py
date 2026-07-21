@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'schedule',   # ← 添加这一行
+    'grade',      # ← 添加这一行
 ]
 
 MIDDLEWARE = [
