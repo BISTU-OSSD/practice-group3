@@ -7,4 +7,3 @@ def calculate_weighted_score(scores: list, weights: list) -> float:
     if total_weight == 0:
         return 0.0
     return total_value / total_weight
-
